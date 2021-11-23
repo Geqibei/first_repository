@@ -28,7 +28,7 @@ public class weapon : MonoBehaviour
             {
                 other.gameObject.GetComponent<EnemyStatic>().Takedamage(weaponDamage);
 
-                tempTime = Time.time;
+                tempTime = Time.time;//aa
 
             }
             
